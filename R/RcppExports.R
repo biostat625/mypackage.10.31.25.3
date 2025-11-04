@@ -2,10 +2,10 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 cube <- function(x) {
-    .Call('_mypackage_10_31_25_3_cube', PACKAGE = 'mypackage.10.31.25.3', x)
+    .Call(`_mypackage_10_31_25_3_cube`, x)
 }
 
 median_cpp_new <- function(x) {
-    .Call('_mypackage_10_31_25_3_median_cpp_new', PACKAGE = 'mypackage.10.31.25.3', x)
+    .Call(`_mypackage_10_31_25_3_median_cpp_new`, x)
 }
 
